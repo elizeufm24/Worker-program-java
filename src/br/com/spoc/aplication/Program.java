@@ -55,7 +55,7 @@ public class Program {
 			System.out.println("Department: " +worker.getDepartment().getName());
 			int month = Integer.parseInt(data.substring(0, 2));
 			int year = Integer.parseInt(data.substring(3));
-			System.out.println("Income for "+ data + ": " + String.format(" R$ %.2f", worker.income(month, year)));
+			System.out.println("Income for "+ data + ": " + String.format(" R$%.2f",worker.income(month, year)));
 			
 			
 		sc.close();
